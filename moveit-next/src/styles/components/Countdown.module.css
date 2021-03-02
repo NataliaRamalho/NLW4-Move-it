@@ -80,3 +80,25 @@
     color: var(--text);
     cursor: not-allowed;
 }
+
+.leaveButton{
+    display: flex;
+}
+.progress{
+    flex: 1;
+    height: 4px;
+    border-radius: 4px;
+    background: var(--gray-line);
+    position: relative;
+}
+
+.progress div{
+    background: var(--green);
+    height: 4px;
+}
+.complet{
+    flex: 1;
+    height: 4px;
+    border-radius: 4px;
+    background: var(--green);
+}

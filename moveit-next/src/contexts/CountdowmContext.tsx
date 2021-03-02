@@ -7,6 +7,7 @@ interface CountdowmContextData {
     seconds: number;  
     hasFinished: boolean;
     isActive: boolean;
+    time: number;
     startCountdown: () => void;
     resetCountdown: () => void;
 }
@@ -59,6 +60,7 @@ export function CountdowmProvider({children} :  CountdownProviderProps){
           seconds, 
           hasFinished,
           isActive,
+          time,
           startCountdown,
           resetCountdown
       }}>
