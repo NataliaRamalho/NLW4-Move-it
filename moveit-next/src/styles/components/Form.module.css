@@ -1,0 +1,42 @@
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Inter';
+}
+.containerForm form{
+    display: flex;
+    
+}
+.containerForm div{
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.containerForm input{
+    background: linear-gradient(90deg, #4953B8 0%, rgba(73, 83, 184, 0.2) 100%);   
+    font-size: 1rem;
+    padding-left: 1rem;
+    color: var(--white);
+}
+
+.containerForm input::-webkit-input-placeholder {
+    color: var( --text-highlight);
+}
+.containerForm input, .containerForm button{
+    width: 100%;
+    height: 3.5rem;
+
+    border: none;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+}
+
+.containerForm button{
+    background: linear-gradient(90deg, var(--green) 0%, rgba(11, 228, 29, 0.568) 100%);
+    color: var(--white);
+    font-family: 'Inter';
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
