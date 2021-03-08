@@ -6,7 +6,7 @@ import { Profile } from "../components/Profile";
 import Head from "next/head";
 import { GetServerSideProps } from "next";
 
-import styles from "../styles/pages/Challenges.module.css";
+import styles from "../styles/pages/Home.module.css";
 import { ChallengeBox } from "../components/ChallengeBox";
 import { CountdowmProvider } from "../contexts/CountdowmContext";
 import React from "react";
@@ -20,7 +20,7 @@ interface HomeProps{
 }
 
 
-function Challenges(props:HomeProps){
+function Home(props:HomeProps){
     return (
     <ChallengesProvider 
         level ={props.level}
@@ -38,7 +38,7 @@ function Challenges(props:HomeProps){
               <CompletedChallenges />
               <Countdown />
             </div>
-            <div>
+            <div className={styles.containerChallengeBox}>
               <ChallengeBox />
             </div>
           </section>
@@ -59,4 +59,4 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     };
   };
   
-  export default Challenges;
+  export default Home;

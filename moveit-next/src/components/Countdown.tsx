@@ -53,7 +53,7 @@ export function Countdown() {
                 Abandonar ciclo
               </button>
               <div className={styles.progress}>
-                <div style={{ width: `${percentToComplet}%` }}></div>
+                <div style={{ width: `${percentToComplet}%`}}></div>
               </div>
             </div>
           ) : (
@@ -70,7 +70,7 @@ export function Countdown() {
                       className={`${styles.countdownButton} ${styles.addButton}`}
                       onClick={addTime}
                       >
-                <div><span>+5</span></div>
+                <div><span>+5-</span></div>
               </button>
             </div>
           )}

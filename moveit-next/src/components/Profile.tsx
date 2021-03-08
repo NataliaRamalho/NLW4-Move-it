@@ -11,12 +11,11 @@ export function Profile(){
     const {level} = useContext(ChallengeContext)
     return(
        <div className={styles.profileContainer}>
-           <img src="https://github.com/NataliaRamalho.png" alt="Avatar"/>
             <div>
                 <strong>  { email.slice(1, (email.length -1))} </strong>
                 <p> 
                     <img src="icons/level.svg" alt="Level"/>
-                    Level {level}
+                    <span>Level {level}</span> 
                 </p>
             </div>
        </div>
