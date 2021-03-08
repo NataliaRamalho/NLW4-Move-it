@@ -13,6 +13,7 @@ import React from "react";
 import { ChallengesProvider } from "../contexts/ChallengeContext";
 
 interface HomeProps{
+  email: string;
   level: number;
   currentExperience : number;
   challengesCompleted : number;

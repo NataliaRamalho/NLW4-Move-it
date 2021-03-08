@@ -4,6 +4,7 @@
     align-items: flex-start;
     justify-content: center;
     font-family: 'Inter';
+    min-width: 38%;
 }
 .containerForm form{
     display: flex;
@@ -38,5 +39,15 @@
     color: var(--white);
     font-family: 'Inter';
     font-size: 1.2rem;
-    margin-bottom: 3rem;
+}
+
+.containerForm p{
+    font-weight: normal;
+    margin: 0.5rem 0rem;
+    font-size: 1rem;
+}
+
+.buttonRegister{
+    margin-bottom: 2rem !important;
+    background: linear-gradient(90deg, var(--blue-twitter) 0%, rgba(24, 156, 196, 0.568) 100%)  !important;
 }
