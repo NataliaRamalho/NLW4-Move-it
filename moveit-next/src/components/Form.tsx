@@ -16,7 +16,7 @@ export function Form() {
       axios
         .post("/api/login", { email, password })
         .then(() => {
-          push(`/[${email}]`);
+          push(`/${email}`);
         })
         .catch(() =>
           setErrorMenssage("Usuário não encontrado, verifique os dados")
@@ -33,7 +33,7 @@ export function Form() {
       axios
         .post("/api/register", { email, password })
         .then(() => {
-          push(`/[${email}]`);
+          push(`/${email}`);
         })
         .catch(() => setErrorMenssage("Usuário já cadastrado"));
     } else{

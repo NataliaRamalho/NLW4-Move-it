@@ -12,7 +12,7 @@ export function Profile(){
     return(
        <div className={styles.profileContainer}>
             <div>
-                <strong>  { email.slice(1, (email.length -1))} </strong>
+                <strong>  {email} </strong>
                 <p> 
                     <img src="icons/level.svg" alt="Level"/>
                     <span>Level {level}</span> 

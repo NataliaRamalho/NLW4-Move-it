@@ -34,6 +34,9 @@ export default async (request: NowRequest, response: NowResponse) => {
   await collection.insertOne({
     email,
     password,
+    level: 1, 
+    currentExperience: 0, 
+    challengesCompleted:0 
   });
   return response.status(201).json({ ok: true });
 };
