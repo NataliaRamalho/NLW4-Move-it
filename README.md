@@ -58,7 +58,7 @@ Caso tenho o <a href="https://git-scm.com/downloads" >git </a> instalado, digite
 Caso não tenha faça o download do repositório e descompacte o arquivo.
 
 `````
-git clone https://github.com/NataliaRamalho/NLW4.git 
+git clone https://github.com/NataliaRamalho/NLW4-Move-it.git 
 `````
 
 <li> Instale as dependências </li>
