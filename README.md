@@ -16,7 +16,7 @@ que quando finalizado sorteia um desafio para ser realizado, depois de completar
  # Funcionalidades principais 
 <li> Cadastro e login </li>
 <li> Sorteio de desafios </li>
-<li> Contagem de pontos, niveis e desafios concluidos </li>
+<li> Contagem de pontos, níveis e desafios concluídos </li>
 
 # Tecnologias utilizadas 
 <li> React </li>
@@ -55,14 +55,14 @@ para isto basta apertar no botão +5- e além disso, é pode-se verificar o nív
 </br>
 <li> Baixe este repositório </li>
 Caso tenho o <a href="https://git-scm.com/downloads" >git </a> instalado, digite o comando abaixo no seu terminal. 
-Caso não tenha faça o dowloand do repositório e descompacte o arquivo.
+Caso não tenha faça o download do repositório e descompacte o arquivo.
 
 `````
 git clone https://github.com/NataliaRamalho/NLW4.git 
 `````
 
-<li> Instale as dependencias </li>
-Abra o projeto no editor de codigo e no terminal estando dentra da basta do projeto, digite:
+<li> Instale as dependências </li>
+Abra o projeto no editor de código e no terminal estando dentro da pasta do projeto, digite:
 
 `````
 npm install
@@ -70,7 +70,7 @@ npm install
 <li> Configurando o arquivo _env </li>
 <p>No <a href="https://www.mongodb.com/" >mongoDb </a> realize o login na sua conta, em seguida va na aba <strong>Database Access</strong> e configure um usuario.</br>
 Depois va na aba Clusters e clique em connect -> connect your application e copiei a url.</br>
-Posteriormente abra o arquivo _env e cole a url, em seguida modifique substitua os parametros da url(username, password, nomedobanco)
+Posteriormente abra o arquivo _env e cole a url, em seguida modifique substitua os parâmetros da url(username, password, nomedobanco)
 de acordo com o usuário que foi configurado anteriormente anteriormente.</br>
 Por fim, mude o nome do arquivo _env para .env.</p>
 
@@ -81,6 +81,6 @@ No terminal estando dentro da aplicação digite:
 npm dev
 `````
 
-Parabéns o codigo está executando 😃, agora basta abrir uma janela do seu navegador e entrar na url: http://localhost:3000.
+Parabéns o código está executando 😃, agora basta abrir uma janela do seu navegador e entrar na url: http://localhost:3000.
 
 
