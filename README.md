@@ -1,7 +1,7 @@
 # Move-it 
-Projeto desenvolvido durante a semana Next Level 4 proporcionada pela Rocketseat. Nesta aplicação o usuário inicia um ciclo de tempo 
-que quando finalizado sorteia um desafio para ser realizado, depois de completar o desafio o usuário ganha experiência e pode começar um novo ciclo.
-<p> Para acessar a aplicação <a href="https://move-it4-7op0fabyf-nat4.vercel.app/">clique aqui</a> </p>
+Projeto desenvolvido durante a semana Next Level Week 4 proporcionada pela Rocketseat. Nesta aplicação o usuário inicia um ciclo de tempo 
+que quando finalizado sorteia um desafio para ser realizado, depois de completar o desafio o usuário ganha experiência e pode começar um novo ciclo. Além do que foi realizado durante a semana, acrescentei mais alguns recursos nesta aplicação como: uma tela de Login e a funcionalidade de modificar o tempo do cronometro
+<p> Para acessar a aplicação <a href="https://move-it4-7op0fabyf-nat4.vercel.app/">clique aqui.</a> </p>
 
 
 :mag_right:Sumário
