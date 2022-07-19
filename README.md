@@ -84,3 +84,5 @@ npm dev
 Parabéns o código está executando 😃, agora basta abrir uma janela do seu navegador e entrar na url: http://localhost:3000.
 
 
+
+⏰ Projeto desenvolvido em fev/2021
